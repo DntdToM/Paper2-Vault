@@ -1,0 +1,16 @@
+# Ignore everything at root by default
+/*
+
+# Keep 3-Scopes folder and root repo files
+!/3-Scopes/
+!/3-Scopes/**
+!/README.md
+!.gitignore
+
+# Cache and temp files
+__pycache__/
+*.py[cod]
+*$py.class
+~$*.xlsx
+.DS_Store
+Thumbs.db
